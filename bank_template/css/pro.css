@@ -1,0 +1,26 @@
+/* .container{
+    background-image:('../img/back.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 80vh !important;
+} */
+
+.back-area{
+    background: url('../img/back.jpg');
+    /* height: 80vh; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+}
+.login-form-col img{
+/* height: 120px; */
+/* border-radius: 50%; */
+/* width:150px;
+height: 150px;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+border-bottom-left-radius: 50%;
+border-bottom-right-radius: 50%; */
+}

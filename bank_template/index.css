@@ -1,0 +1,468 @@
+html,body{
+  overflow-x: hidden;
+}
+
+/* ------------------navbar------------------ */
+
+nav{
+  background-color: #265d7d;
+}
+.navbar .navbar-collapse ul li:not(:last-child){
+    padding: 0px 10px;
+}
+.navbar .navbar-collapse ul li a{
+  color: white;
+}
+
+.navbar .navbar-collapse button{
+  color: rgb(49, 126, 151);
+  float: right !important;
+}
+.nav-logo{
+  font-size: 60px; 
+  font-weight: 900;
+   color: #58b1ff;
+}
+.navbar-toggler{
+  font-size: 40px;
+   outline: none;
+}
+.btn-group button{
+  background-color: white; color: #2d5d7d;font-weight: 600; border: none;
+}
+.nav-link{
+  padding: 0 !important;
+}
+
+/* ----------------back-img--------------------------- */
+
+.back-img{
+    background-image: url('./img/Group\ 15.jpg');
+    height: 80vh;
+    background-size: cover;
+  
+}
+.back-img .content-row{
+  margin-top:auto; 
+  height: 60%;
+}
+.back-img .content-row h1{
+  font-size: 50px; 
+  font-weight: 800;
+  color:#265d7d;
+}
+.back-img .content-row h4{
+  color:#265d7d;
+}
+
+.button-row button{
+  background-color:#58b1ff; 
+  color: white;
+   border: 2px solid #265d7d;
+    padding:5px 40px;
+    box-shadow: 0 9px #999;
+}
+.button-row button:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 0 5px #ceedfb;
+  transform: translateY(4px);
+  outline: none;
+}
+
+
+
+
+/* -------------block-div---------------- */
+.block-div{
+  background-color:#58b1ff !important; 
+  height: 60px;
+}
+
+
+/* -----------------today-rate----------------- */
+
+.today-rate .header-row h1{
+  font-size: 40px;
+   font-weight: 800;
+    color: #265d7d;
+}
+
+.today-rate .line1{
+  border:2px solid #265d7d;
+  width: 60%;
+  margin-left:0;
+}
+.today-rate .line2{
+  border:2px solid #265d7d;
+  width: 60%;
+  margin-right:0;
+}
+.today-rate-description{
+  padding: 20px 60px;
+}
+.today-rate-description .card{
+  background-color: #ceedfb; 
+}
+.today-rate-description .card-col-1,.card-col-2,.card-col-3,.card-col-4 h4{
+  font-weight: 700 !important;
+}
+.today-rate-description .card-col-1,.card-col-2,.card-col-3,.card-col-4 .span1{
+  font-size: 35px;
+   font-weight: 600;
+    color: #58b1ff;
+}
+.today-rate-description .card-col-1,.card-col-2,.card-col-3,.card-col-4 .span2{
+  font-weight: 700;
+}
+.today-rate-description .card-col-1 p{
+font-weight: 700;
+font-size: 20px;
+}
+.today-rate-description .card-col-2 p{
+  font-size:20px ;
+  color: #2ae85f;
+  font-weight: 700;
+}
+.today-rate-description .card-col-2 i{
+  font-size: 20px;
+  font-weight: 700; 
+  color:#2ae85f;
+}
+.today-rate-description .card-col-3,.card-col-4 p{
+  font-size:20px ;
+  color: red;
+  font-weight: 700;
+}
+.today-rate-description .card-col-3,.card-col-4 i{
+  font-size: 20px;
+  font-weight: 700;
+   color:red;
+}
+
+
+/* .loan-description ul{
+    margin: 0.75em 0;  
+    padding: 0 1em;  
+    list-style: none;  
+}
+.loan-description li:before{
+    content: "";  
+    border-color: transparent #008eef;  
+    border-style: solid;  
+    border-width: 0.35em 0 0.35em 0.45em;  
+    display: block;  
+    height: 0;  
+    width: 0;  
+    left: -1em;  
+    top: 0.9em;  
+    position: relative;  
+} */
+.loan-description .col-md-4{
+    padding: 20px 30px;
+}
+
+.calculator{
+    background-image: url('../img/Group\ 16.jpg');
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.mortgage-resources{
+    background-image: url('../img/Group\ 18.jpg');
+    height: 80vh;
+    background-size: cover;
+}
+.first-trust-mortgage li{
+  padding: 25px 0px;
+}
+/* .first-trust-mortgage span{
+  padding: 0px 20px;
+} */
+
+
+
+
+/* carousel */
+/* .media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+} */
+/* Previous button  */
+/* .media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+} */
+/* Next button  */
+/* .media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+} */
+/* Changes the position of the indicators */
+/* .media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+} */
+/* Changes the colour of the indicators */
+/* .media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+} */
+/* End carousel */
+
+/* .end li{
+    padding: 0px 60px;
+} */
+
+.carousel-wrap .heading h3{
+  color: #6eaa41;
+  font-size: 50px;
+}
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -2px;
+ 
+}
+
+.owl-nav .owl-next {
+  right: -2px;
+}
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  
+}
+.carousel-wrap {
+  margin: 20px auto;
+  padding: 0 5%;
+  width: 100%;
+  position: relative;
+}
+
+.owl-carousel .item{
+  padding: 0px 80px;
+}
+.carousel-area{
+  background-image: url('./img/Group\ 18.jpg');
+  height: 110vh;
+  background-position: center;
+}
+
+.social-col span:not(:first-child){
+padding-right: 32px;
+}
+
+.nav-tabs li{
+padding: 0px 10px;
+}
+.nav-tabs li a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.nav-tabs li:hover{
+ 
+    border-bottom: 2px solid #58b1ff;
+    color: #58b1ff !important;
+    margin-top: -2px;
+    text-decoration: none;
+    color: inherit;
+  
+}
+@media only screen and (min-width:481px){
+
+.today-rate-description .card-body .border-r{
+  border-right: 2px solid #58b1ff;
+}
+.get-quick-button button{
+  padding: 10px 50px;
+  font-size: 25px;
+   font-weight: 800;
+}
+
+.home{
+  text-align: left;
+}
+.copyright{
+  text-align: right;
+}
+}
+.tab-content .col-md-4:not(:last-child){
+  border-right: 1px solid rgb(70, 67, 67);
+}
+
+@media only screen and (max-width:480px){
+  .today-rate-description .card-body .border-r{
+    border-bottom: 2px solid #58b1ff ;
+  }
+  .carousel-area{
+   
+    height:90vh;
+  
+  }
+  .calculator .col-md-10{
+    margin: 0px 20px;
+  }
+  .loan-options .col-md-3{
+    margin: 0px 20px;
+  }
+  .today-rate-description .col-md-3:not(:first-child){
+    margin-top: 25px;
+  }
+  .get-quick-button button{
+    padding: 10px 0px;
+    font-size: 20px;
+     font-weight: 600;
+  }
+  .loan-description .col-md-3:not(:first-child){
+    margin-top: 10px;
+    }
+
+    .tab-content .col-md-4:not(:last-child){
+      border-right:none;
+    border-bottom:1px solid rgb(70, 67, 67);
+    }
+.compareloan-btn button{
+width: 0px;
+}
+.calculator{
+  height: 170vh;
+  }
+  footer .logo{
+    text-align: center;
+  }
+  .dn{
+    display: none;
+  }
+  .social-col{
+    text-align: center;
+  }
+  .copyright,.home{
+    text-align: center;
+  }
+  .navbar .navbar-collapse ul li:not(:last-child){
+    padding: 0px;
+}
+}
+
+.compareloan-btn button{
+  width: 270px;
+}
+
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+
+/* ----moving-text---------- */
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('./img/Spin-1s-200px.gif') 50% 50% no-repeat rgb(249,249,249);
+}
